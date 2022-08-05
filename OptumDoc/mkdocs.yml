@@ -1,0 +1,11 @@
+site_name: Optum Documentation
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - Apache Airflow:
+    - 'Apache Airflow': 'airflow.md'
+  - Hashicorp Vault:
+    - 'Create Secrests': 'createSecrets.md'
+theme:
+  name: material
+
