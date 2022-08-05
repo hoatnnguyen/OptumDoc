@@ -12,24 +12,24 @@ Access [pam-dev.uhc.com](http://pam-dev.uhc.com) on a web browser (the follwing 
 4. Click on **Sign In** button
 
 ## Step 2: Switch to your target Namespace
-## Quem opes patiemur secum
 
-Milia insuper mittunt est per affectibus noscere colla maximus **ambiguus**,
-minorem vultum *ab emicat*. Mixtae Athamantis moratur Cycnum, sublimemque erat
-soporem commentaque quatiebant et vertice frustra tibi, et pronus vita. Scelerum
-Temesaea et sorores etiamnum vivit! Dextrae obice conplerunt sanguine pinum ora
-longisque: comitantiaque fert lactantiaque auras seu, serpens. Mercede
-blandimenta garrula fletus **arva dedecus fretum**.
+After signing in to Vault, you will see the following main page of the Vault Web UI:  
+![Screenshot](img/Vault2.png)  
 
-> Quae rigidum crescit incubuitque vidit, opis mare aures, est dea coegerat
-> convertit tua habet Aeneas alumnus, aures. Famulis viscera *nostraque abluere*
-> plectrumque semper iungit tauri, tangamque nepotum refers, cornu, nec aeno.
-> Tactu exanimem sociae talaria profusis denique fluidos; Priamus sed utrique.
-> Aut mente, suis et *urbis* ostendens tamquam est idonea urnis.
+1. Click on the arrow down icon next to **AIRFLOW**, then a drop-down menu will appear. Click on **Manage namespaces**
+![Screenshot](img/Vault3.png)
+2. After clicking on **Manage namespaces**, a list of Namespaces will show up
+![Screenshot](img/Vault4.png)
+3. Click on **...** (three horizontal dots icon) next to your target Namespace and choose **Switch to Namespace**
+![Screenshot](img/Vault5.png)
 
-## At hoc
+## Step 3: Choose your engine
 
-Pingebat et dextra, inplevit, *hoc*. Omnia catenas recessus?
 
-Qui devia in Eryx hasta, diem sectos; sed erat hanc, secunda partimque. Altius
-**ad** non tendebam, summaque ramum, at Iuno unguibus memores. Visa nutricis.
+
+## Step 4: Create a secret
+
+## Step 5: Continue creating remaining secrets
+
+## Examples of results
+
