@@ -24,10 +24,18 @@ After signing in to Vault, you will see the following main page of the Vault Web
 ![Screenshot](img/Vault5.png)
 
 ## Step 3: Choose your engine
-
+After switching to your target Namespace, a list of engines will show up
+![Screenshot](img/Vault6.png)
+Click on your target engine
+![Screenshot](img/Vault7.png)
 
 
 ## Step 4: Create a secret
+1. Click on **Create secret** to create a new secret
+![Screenshot](img/Vault8.png)
+2. Fill out **secret path** and **Secret data**
+![Screenshot](img/Vault9.png)
+3. Click on **Save** button
 
 ## Step 5: Continue creating remaining secrets
 
