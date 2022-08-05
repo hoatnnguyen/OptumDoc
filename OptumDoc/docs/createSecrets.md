@@ -1,21 +1,17 @@
-# Create Secrets on Hashicorp Vault Web UI 
-
-## 1. Sign in to Vault
+# Create Secrets on Hashicorp Vault Web UI
+---
+## Step 1: Sign in to Vault
 
 Access [pam-dev.uhc.com](http://pam-dev.uhc.com) on a web browser (the follwing browsers are supported: Chrome, Firefox, Safari, and Microsoft Edge) and sign in to Vault.  
-**Note:** It is important to provide a correct **Namespace**
+**Note:**  It is important to provide a correct **Namespace**  
+![Screenshot](img/Vault1.jpg)
 
-1. Lapillos locorum inertem telae erat omnibus auxilium
-2. Nec sic magis
-3. Ignibus femina an dabis descendit plures Giganteo
-4. Manu ille accipiunt leonem
+1. Fill out **Namespace** with **"/OPTUM/APP/AIRFLOW"**
+2. Choose **LDAP** method
+3. Fill out your **Username** and **Password**
+4. Click on **Sign In** button
 
-## Fugit fuerit rediere
-
-Nisi flagratque caput elementa fautrix mihi, cupies color repressit domus. Pro
-recenti **foret totidem cervice** puerilibus **medio curvantem** arces; quibus
-quem coniecta furti revocata. Et meruit visus, vittis, e Sipylus passis.
-
+## Step 2: Switch to your target Namespace
 ## Quem opes patiemur secum
 
 Milia insuper mittunt est per affectibus noscere colla maximus **ambiguus**,
