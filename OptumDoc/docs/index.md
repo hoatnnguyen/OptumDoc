@@ -10,7 +10,7 @@ For full documentation of Hashicorp Vault visit [vaultproject.io](https://www.va
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## Documentation layout
 
     mkdocs.yml    # The configuration file.
     docs/

@@ -9,19 +9,26 @@ nav:
 
 theme:
   name: material
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
   palette: 
 
     # Palette toggle for light mode
     - scheme: default
+      accent: red
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
 
 
+copyright: Copyright &copy; 2022 Optum
+extra:
+  generator: false
