@@ -47,12 +47,13 @@ Click on your target engine
 ![Screenshot](img/Vault11.png)
 2. Click on **Creat secret** to create another secret
 ![Screenshot](img/Vault12.png)
-3. Similar to step 4, fill out **secret path** and **secret data**  
+3. Similar to step 4, fill out **secret path** and **secret data** boxes  
 **Note**
     - parentFolder must be the same as the previous secret's parentFolder
     - The secret path has to be in form **"[parentFolder]/[secretName]"**
     - Key of Secret data must be "value" for all secrets 
 ![Screenshot](img/Vault13.png)
+4. Continue creating remaining secrets
 
 ## Examples of results
 ### An example of correct result of creating secrets:
