@@ -6,6 +6,10 @@ For full documentation of Apache Airflow visit [airflow.apache.org](https://airf
 !!! info
 
     Prefer to getToken for further details on how to get **token** on Hashicorp Vault Web UI
+## Verify
+1. Navigate to your $AIRFLOWHOME and verify if ca-certificate file is in the home directory  
+    ![Screenshot](img/configuration1.png)
+2. The absolute path to ca-certificate file: /home/airfdev/ca-bundle.crt
 ## Hashicorp Vault Secrets Backend
 
 To enable Hashicorp Vault to retrieve Airflow connection/variable, specify VaultBackend as the backend in [secrets] section of airflow.cfg.  
@@ -15,7 +19,7 @@ Here is a sample configuration:
 backend = airflow.providers.hashicorp.secrets.vault.VaultBackend  
 backend_kwargs = {"connections_path": "connections", "variables_path": "variables", "mount_point": "airflow", "url": "http://127.0.0.1:8200"}
 ```
-
+Here is samples of correcsponding environment variables:
 ```
 export AIRFLOW__SECRETS__BACKEND=airflow.providers.hashicorp.secrets.vault.VaultBackend
 export VAULT_TOKEN="token"
@@ -45,6 +49,6 @@ backend_kwargs = {"connections_path": null, "variables_path": null, "mount_point
 ```
 export AIRFLOW__SECRETS__BACKEND=airflow.providers.hashicorp.secrets.vault.VaultBackend
 export VAULT_TOKEN="token"
-export AIRFLOW__SECRET__BACKEND_KWARGS={\"token\": \"${VAULT_TOKEN}\", \"connection_path\" null, \"vairables_path\":null, \"config_path\": \"mui\", \"mount_point\": \"DEV/dev\", \"url\": \"https://pam-dev.uhc.com/\", \"verify\:\"/home/airfdev/ca-bundle.crt\", \"namespace\": \"OPTUM/APP/AIRFLOW\"}
+export AIRFLOW__SECRET__BACKEND_KWARGS={\"token\": \"${VAULT_TOKEN}\", \"connection_path\": null, \"vairables_path\": null, \"config_path\": \"mui\", \"mount_point\": \"DEV/dev\", \"url\": \"https://pam-dev.uhc.com/\", \"verify\: \"/home/airfdev/ca-bundle.crt\", \"namespace\": \"OPTUM/APP/AIRFLOW\"}
 ```
 
