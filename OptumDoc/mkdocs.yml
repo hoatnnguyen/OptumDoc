@@ -3,6 +3,7 @@ site_url: https://example.com/
 nav:
   - Home: index.md
   - Apache Airflow:
+    - 'Setting': 'setting.md'
     - 'Configuration': 'configuration.md'
   - Hashicorp Vault:
     - 'Create Secrests': 'createSecrets.md'

@@ -14,7 +14,13 @@ Here is a sample configuration:
 [secrets]  
 backend = airflow.providers.hashicorp.secrets.vault.VaultBackend  
 backend_kwargs = {"connections_path": "connections", "variables_path": "variables", "mount_point": "airflow", "url": "http://127.0.0.1:8200"}
-```   
+```
+
+```
+export AIRFLOW__SECRETS__BACKEND=airflow.providers.hashicorp.secrets.vault.VaultBackend
+export VAULT_TOKEN="token"
+export AIRFLOW__SECRET__BACKEND_KWARGS={\"token\": \"${VAULT_TOKEN}\"}
+```
 !!! info
 
     - Prefer to [Create Secret](createSecrets.md) for further details on the values of **mount_point**, **namespace**, **config_path**  
@@ -36,4 +42,9 @@ backend = airflow.providers.hashicorp.secrets.vault.VaultBackend
 backend_kwargs = {"connections_path": null, "variables_path": null, "mount_point": "airflow", "config_path": "mui", "url": "http://127.0.0.1:8200"}
 ``` 
 
+```
+export AIRFLOW__SECRETS__BACKEND=airflow.providers.hashicorp.secrets.vault.VaultBackend
+export VAULT_TOKEN="token"
+export AIRFLOW__SECRET__BACKEND_KWARGS={\"token\": \"${VAULT_TOKEN}\", \"connection_path\" null, \"vairables_path\":null, \"config_path\": \"mui\", \"mount_point\": \"DEV/dev\", \"url\": \"https://pam-dev.uhc.com/\", \"verify\:\"/home/airfdev/ca-bundle.crt\", \"namespace\": \"OPTUM/APP/AIRFLOW\"}
+```
 
