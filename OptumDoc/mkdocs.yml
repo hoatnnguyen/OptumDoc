@@ -6,7 +6,8 @@ nav:
     - 'Setting': 'setting.md'
     - 'Configuration': 'configuration.md'
   - Hashicorp Vault:
-    - 'Create Secrests': 'createSecrets.md'
+    - 'Get Token': 'getToken.md'
+    - 'Create Secrets': 'createSecrets.md'
 
 markdown_extensions:
   - admonition

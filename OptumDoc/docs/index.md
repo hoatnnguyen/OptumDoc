@@ -3,16 +3,20 @@
 For full documentation of Apache Airflow visit [airflow.apache.org](https://airflow.apache.org/).  
 For full documentation of Hashicorp Vault visit [vaultproject.io](https://www.vaultproject.io/docs).
 
-## Commands
+## Useful Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `airflow cheat-sheet [-h] [-v]` - Display cheat sheet.
+* `airflow config [-h] COMMAND` - View configuration.
+* `airflow db check [-h]` - Check if the database can be reached.
+* `airflow db init [-h]` - Initialize the metadata database.  
+Visit [Airflow Commands](https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables-ref.html) for more airflow commands.
 
 ## Documentation layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    Home                    # The Documentation Homepage.
+    Apache Airflow
+        Setting             # Setting for Airflow Configuration.
+        Configuration       # Details on Configuration Variables.
+    Hashicorp Vault
+        Get Token           # Get Token Instruction.
+        Create Secrets      # Create Secrets Instruction.
