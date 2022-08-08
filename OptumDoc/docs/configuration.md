@@ -27,7 +27,7 @@ export AIRFLOW__SECRET__BACKEND_KWARGS={\"token\": \"${VAULT_TOKEN}\"}
 ```
 !!! info
 
-    - Prefer to [Create Secret](createSecrets.md) for further details on the values of **mount_point**, **namespace**, **config_path**  
+    - Prefer to [Create Secret](createSecrets.md) for further details on the values of **mount_point**, **namespace**, **config_path**, and **mount_point**  
     - For Vault running with self signed certificates Add “verify”: “absolute path to ca-certificate file”
 The default KV version engine is 2.
 

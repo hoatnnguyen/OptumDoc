@@ -13,7 +13,7 @@ or by creating a corresponding environment variable:
 ```
 export AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=my_conn_string
 ```
-## Override airflow.cfg
+## Overwrite airflow.cfg
 The airflow.cfg comes from the default installation and stays unchanged. We can create a new configuration and create new environment variables in it to overwrite airflow.cfg  
 
 1. Create a new configuration file in the same directory as airflow.cfg 
@@ -21,25 +21,15 @@ The airflow.cfg comes from the default installation and stays unchanged. We can 
     ```
     $ touch afmui_airflow.cfg
     ```
-
-2. Open and update airflow setup sh file (airtdp_env_setup.sh) 
+2. Open and update airflow setup sh file (airtdp_env_setup.sh)  
     ```
     $ vim airtdp_env_setup.sh
     ```
-<<<<<<< HEAD
     Update source file in AIRFLOW CONFIGURATION section to afmui_airflow.cfg:  
-=======
-    Update source file in AIRFLOW CONFIGURATION section to afmui_airflow.cfg:
-    from
->>>>>>> 10ccc5aa0ce5e4be13eec83784e5233ccb6b417e
-    ![Screenshot](img/setting1.png)
-    to
-    ![Screenshot](img/setting2.png)
+    From  
+    ![Screenshot](img/setting1.png)  
+    To:  
+    ![Screenshot](img/setting2.png)  
 
-
-3. Add environment variables in afmui_airflow.cfg configuration file
-<<<<<<< HEAD
-    Refer to [Configuration](configuration.md) for more details on environment variables.
-=======
+3. Add environment variables in afmui_airflow.cfg configuration file  
     ![Screenshot](img/setting3.png)
->>>>>>> 10ccc5aa0ce5e4be13eec83784e5233ccb6b417e

@@ -56,7 +56,7 @@ Click on your target engine.
 
         - parentFolder must be the same as the previous secret's parentFolder.    
         - The secret path has to be in form **"[parentFolder]/[secretName]"**.    
-        - Key of Secret data must be "value" for all secrets.  
+        - Secret Key is "value" for all secrets.  
 
     ![Screenshot](img/Vault13.png)  
 4. Continue creating remaining secrets.
