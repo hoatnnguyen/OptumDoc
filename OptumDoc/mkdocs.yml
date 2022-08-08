@@ -3,9 +3,15 @@ site_url: https://example.com/
 nav:
   - Home: index.md
   - Apache Airflow:
-    - 'Apache Airflow': 'airflow.md'
+    - 'Configuration': 'configuration.md'
   - Hashicorp Vault:
     - 'Create Secrests': 'createSecrets.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 
 theme:
   name: material
@@ -17,7 +23,7 @@ theme:
     - scheme: default
       accent: red
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
