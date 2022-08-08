@@ -24,6 +24,10 @@ The airflow.cfg comes from the default installation and stays unchanged. We can 
     $ vim airtdp_env_setup.sh
     ```
     Update source file in AIRFLOW CONFIGURATION section to afmui_airflow.cfg:
+    from
     ![Screenshot](img/setting1.png)
+    to
+    ![Screenshot](img/setting2.png)
 
 3. Add environment variables in afmui_airflow.cfg configuration file
+    ![Screenshot](img/setting3.png)
