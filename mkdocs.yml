@@ -5,9 +5,10 @@ nav:
   - Apache Airflow:
     - 'Setting': 'setting.md'
     - 'Configuration': 'configuration.md'
-  - Hashicorp Vault:
+  - HashiCorp Vault:
     - 'Get Token': 'getToken.md'
     - 'Create Secrets': 'createSecrets.md'
+  - Resources: resources.md
 
 markdown_extensions:
   - admonition
