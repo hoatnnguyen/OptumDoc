@@ -341,14 +341,14 @@
       
       
         <label class="md-nav__link" for="__nav_3">
-          Hashicorp Vault
+          HashiCorp Vault
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Hashicorp Vault" data-md-level="1">
+      <nav class="md-nav" aria-label="HashiCorp Vault" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Hashicorp Vault
+          HashiCorp Vault
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -382,6 +382,21 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../resources/" class="md-nav__link">
+        Resources
+      </a>
     </li>
   
 
@@ -452,23 +467,23 @@ or by creating a corresponding environment variable:
 <div class="highlight"><pre><span></span><code>export AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=my_conn_string
 </code></pre></div></p>
 <h2 id="overwrite-airflowcfg">Overwrite airflow.cfg</h2>
-<p>The airflow.cfg comes from the default installation and stays unchanged. We can create a new configuration and create new environment variables in it to overwrite airflow.cfg  </p>
+<p>The airflow.cfg comes from the default installation and stays unchanged. We can create a new configuration and create new environment variables in it to overwrite <strong>airflow.cfg</strong>  </p>
 <ol>
 <li>
-<p>Create a new configuration file in the same directory as airflow.cfg </p>
+<p>Create a new configuration file in the same directory as <strong>airflow.cfg</strong> </p>
 <p><div class="highlight"><pre><span></span><code>$ touch afmui_airflow.cfg
 </code></pre></div>
-2. Open and update airflow setup sh file (airtdp_env_setup.sh)<br />
+2. Open and update airflow setup sh file (<strong>airtdp_env_setup.sh</strong>)<br />
 <div class="highlight"><pre><span></span><code>$ vim airtdp_env_setup.sh
 </code></pre></div>
-Update source file in AIRFLOW CONFIGURATION section to afmui_airflow.cfg:<br />
+Update source file in AIRFLOW CONFIGURATION section to <strong>afmui_airflow.cfg</strong>:<br />
 From<br />
 <img alt="Screenshot" src="../img/setting1.png" /><br />
 To:<br />
 <img alt="Screenshot" src="../img/setting2.png" />  </p>
 </li>
 <li>
-<p>Add environment variables in afmui_airflow.cfg configuration file<br />
+<p>Add environment variables in <strong>afmui_airflow.cfg</strong> configuration file<br />
 <img alt="Screenshot" src="../img/setting3.png" /></p>
 </li>
 </ol>
